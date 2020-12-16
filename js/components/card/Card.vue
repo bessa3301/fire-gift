@@ -1,14 +1,14 @@
 <template>
   <div class="container" @click="flip">
     <div class="card" :class="{ flipped: option.flipped }">
-      <img v-if="option.cardName === '8-ball'" class="front" src="../../../img/8-ball.png" />
-      <img v-if="option.cardName === 'baked-potato'" class="front" src="../../../img/baked-potato.png" />
-      <img v-if="option.cardName === 'dinosaur'" class="front" src="../../../img/dinosaur.png" />
-      <img v-if="option.cardName === 'kronos'" class="front" src="../../../img/kronos.png" />
-      <img v-if="option.cardName === 'rocket'" class="front" src="../../../img/rocket.png" />
-      <img v-if="option.cardName === 'skinny-unicorn'" class="front" src="../../../img/skinny-unicorn.png" />
-      <img v-if="option.cardName === 'that-guy'" class="front" src="../../../img/that-guy.png" />
-      <img v-if="option.cardName === 'zeppelin'" class="front" src="../../../img/zeppelin.png" />
+      <img v-if="option.cardName === '8-ball'" class="front" src="../../../assets/deploy.png" />
+      <img v-if="option.cardName === 'baked-potato'" class="front" src="../../../assets/docker.png" />
+      <img v-if="option.cardName === 'dinosaur'" class="front" src="../../../assets/firework.png" />
+      <img v-if="option.cardName === 'kronos'" class="front" src="../../../assets/gitlab.png" />
+      <img v-if="option.cardName === 'rocket'" class="front" src="../../../assets/kooldev.png" />
+      <img v-if="option.cardName === 'skinny-unicorn'" class="front" src="../../../assets/laravel.png" />
+      <img v-if="option.cardName === 'that-guy'" class="front" src="../../../assets/mattermost.png" />
+      <img v-if="option.cardName === 'zeppelin'" class="front" src="../../../assets/vue.png" />
 
       <img class="back" src="../../../img/back.png" />
     </div>

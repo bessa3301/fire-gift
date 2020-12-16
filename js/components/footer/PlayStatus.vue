@@ -2,10 +2,7 @@
   <div class="status-footer">
     <span v-if="status === READY">Clique em uma carta para comecar</span>
     <span v-if="status === PLAYING">Ache os pares</span>
-    <span v-if="status === PASS">
-      Feliz Natal & 2020 - Abraços Gabriel Bessa :) -
-      <a v-if="status === PASS" href @click.prevent.stop="reset">Jogar Novamente</a>
-    </span>
+    <a v-if="status === PASS" href @click.prevent.stop="reset">Feliz Natal & 2020 - Abraços Gabriel Bessa</a>
     <span class="elapsed">{{ elapsedMs }} s</span>
   </div>
 </template>
@@ -21,12 +18,12 @@ export default {
   },
 
   computed: {
-    ...mapGetters(['status', 'elapsedMs']),
+    ...mapGetters(['status', 'elapsedMs'])
   },
 
   methods: {
-    ...mapActions(['reset']),
-  },
+    ...mapActions(['reset'])
+  }
 }
 </script>
 
