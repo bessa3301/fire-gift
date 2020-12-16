@@ -19,7 +19,7 @@
     </div>
 
     <br />
-    <router-link to="/game"> <img src="../" alt="" /> Acessar o jogo</router-link>
+    <router-link to="/game"> Acessar o jogo</router-link>
   </div>
 </template>
 
