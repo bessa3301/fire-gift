@@ -16,6 +16,7 @@ import { mapActions } from 'vuex'
 import { STATUS } from '../vuex/store/statusEnum'
 
 export default {
+  name: 'Game',
   components: { Dashboard, Chessboard, Status },
   created() {
     this.updateStatus(STATUS.READY)

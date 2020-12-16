@@ -10,6 +10,6 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     { path: '/', name: 'home', component: Home },
-    { path: '/game', name: 'game', component: Game }
+    { path: '/game', name: 'Game', component: Game }
   ]
 })
