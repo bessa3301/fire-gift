@@ -2,14 +2,17 @@
   <div>
     <div>
       <p>
-        Este ano tive a oportunidade de comecar a trabalhar com voces na firework. Fiz um jogo curto usando Vue.js e o
-        Kool.dev =)
+        Este ano tive a oportunidade de comecar a trabalhar com voces na firework. Me sinto muito grato por ter essa
+        oportunidade e quis fazer uma pequena lembrancinha de natal / ano novo para voces.
       </p>
-
       <p>
-        Me sinto muito grato por ter essa oportunidade e quis fazer uma pequena lembrancinha de natal / ano novo para
-        voces.
+        Obrigado por me aceitarem aqui e espero que em 2021 possa contribuir nos nossos projetos. Fiz um jogo curto
+        usando Vue.js e espero que gostem.
       </p>
+      <p>
+        Abraços e Boas festas!
+      </p>
+      <p>Bessa</p>
     </div>
 
     <br />
