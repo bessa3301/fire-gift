@@ -7,21 +7,7 @@
     "build": "rm -rf dist && webpack --config webpack.config.prod.js",
     "deploy": "yarn build && gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leftstick/vue-memory-game.git"
-  },
-  "keywords": [
-    "memory-game",
-    "vue",
-    "component"
-  ],
-  "author": "Howard.Zuo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/leftstick/vue-memory-game/issues"
-  },
-  "homepage": "https://github.com/leftstick/vue-memory-game#readme",
   "engines": {
     "node": ">=7.0"
   },

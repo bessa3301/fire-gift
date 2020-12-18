@@ -7,7 +7,7 @@ module.exports = merge(common, {
   mode: 'production',
   output: {
     path: resolve(__dirname, 'dist'),
-    publicPath: '/vue-memory-game/'
+    publicPath: '/'
   },
   plugins: [
     new webpack.DefinePlugin({
